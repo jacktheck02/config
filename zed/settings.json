@@ -1,0 +1,124 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "tab_size": 4,
+  "show_edit_predictions": false,
+  "cli_default_open_behavior": "existing_window",
+  "agent": {
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "opencode",
+      "model": "go/minimax-m3",
+      "enable_thinking": false
+    },
+    "favorite_models": [
+      {
+        "provider": "opencode",
+        "model": "zen/gpt-5.5",
+        "enable_thinking": false
+      },
+      {
+        "provider": "opencode",
+        "model": "go/minimax-m2.7",
+        "enable_thinking": false
+      },
+      {
+        "provider": "opencode",
+        "model": "zen/claude-sonnet-4-6",
+        "enable_thinking": false
+      },
+      {
+        "provider": "opencode",
+        "model": "go/mimo-v2.5-pro",
+        "enable_thinking": true,
+        "effort": "high"
+      },
+      {
+        "provider": "opencode",
+        "model": "go/qwen3.6-plus",
+        "enable_thinking": false
+      }
+    ],
+    "model_parameters": []
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 600
+    }
+  },
+  "language_models": {
+    "opencode": {
+      "show_go_models": true,
+      "show_zen_models": true
+    }
+  },
+  "ssh_connections": [
+    {
+      "host": "raspberrypi",
+      "username": "jacktheck02",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/jacktheck02/casaos-clone"
+          ]
+        },
+        {
+          "paths": [
+            "/home/jacktheck02/casaos-clone-client"
+          ]
+        },
+        {
+          "paths": [
+            "/home/jacktheck02/dc-interface"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "100.108.91.90",
+      "username": "jacktheck02",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/jacktheck02/misick"
+          ]
+        },
+        {
+          "paths": [
+            "/home/jacktheck02/misick-client"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "100.108.91.90",
+      "username": "jacktheck02",
+      "args": [],
+      "projects": []
+    }
+  ],
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Nordfox - blurred",
+  },
+}

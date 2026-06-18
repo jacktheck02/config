@@ -5,7 +5,6 @@ Google
 Proton Mail
 Raspberry Pi
 gsconnect
-nvim
 Thunar
 VSCodium
 autostart
@@ -61,7 +60,6 @@ xarchiver
 xfce4
 xpad
 yelp
-zed
 .wrangler
 QtProject.conf
 gnome-xdg=terminals.list
@@ -81,3 +79,10 @@ llmfit
 openwork
 xed
 codecarbon
+libvirt
+xmonad/.stack-work
+xmonad/xmonad
+xmonad/xmonad-contrib
+xmonad/stack.yaml
+xmonad/stack.yaml.lock
+sealert.conf
